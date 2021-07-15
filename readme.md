@@ -17,14 +17,14 @@ Express </br>
 
 ## How to use:
 
--Pull or clone this repository to your device
--Install dependancies with npm install
--Run your backend server (npm start or nodemon)
--Leave your backend server running to provide the API response to you frontend app.
--Switch to your front end app to perform searches
+-Pull or clone this repository to your device </br>
+-Install dependancies with npm install </br>
+-Run your backend server (npm start or nodemon) </br>
+-Leave your backend server running to provide the API response to you frontend app. </br>
+-Switch to your front end app to perform searches </br>
 
 ## Future Improvements:
 
--Secure API key before hosting backend or using it for production (.env file or other protection method).
--Host backend so you don't need to run locally.
--Currently location is hard-coded since the challenge required the location to be Naperville. Versitility can be added by allowing the user to include a location parameter in the search form in the same way the search term is currently implemented.
+-Secure API key before hosting backend or using it for production (.env file or other protection method). </br>
+-Host backend so you don't need to run locally. </br>
+-Currently location is hard-coded since the challenge required the location to be Naperville. Versitility can be added by allowing the user to include a location parameter in the search form in the same way the search term is currently implemented. </br>
