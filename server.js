@@ -5,6 +5,9 @@ const axios = require('axios');
 //grab env variables
 require("dotenv").config;
 
+// GET PORT FROM ENV OR DEFAULT PORT
+const PORT = process.env.PORT || "2021"
+
 // Create the Express App
 const app = express();
 
@@ -45,6 +48,6 @@ app.get('/yelpAPI/search/:term', (req, res) => {
 
 
 // Tell the App to Listen on Port 3000
-app.listen(process.env.PORT || 3001, function() {
+app.listen(PORT, function() {
     console.log('Express is listening on port 3001');
 });
